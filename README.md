@@ -40,7 +40,7 @@ We provide our pre-trained checkpoints and corresponding training logs [here](ht
 
 * Tensorboard
 
-  If you want to use tensorboard, you need to `pip install tensorboard` and uncomment the Line 6 `dict(type='TensorboardLoggerHook')` of `SETR/configs/_base_/default_runtime.py`.
+  If you want to use tensorboard, you need to `pip install tensorboard` and uncomment the Line 6 `dict(type='TensorboardLoggerHook')` of `SATNet/configs/_base_/default_runtime.py`.
 
 
 ### Single-scale testing
