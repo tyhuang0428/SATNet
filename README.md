@@ -20,7 +20,7 @@ mkdir data
 ```
 
 ## Data preparation
-We train and evaluate our SATNet on Mirror Segmentation Dataset (MSD), Progressive Mirror Dataset (PMD), RGB-D Mirror Dataset (RGBD-Mirror). You can download the pack file [mirror.tar]() of these datasets and unpack it to `SATNet/data`:
+We train and evaluate our SATNet on Mirror Segmentation Dataset (MSD), Progressive Mirror Dataset (PMD), RGB-D Mirror Dataset (RGBD-Mirror). You can download the pack file [mirror.tar]() of these datasets and unpack it to `SATNet/data`
 
 
 ## Get Started
