@@ -1,5 +1,5 @@
 # Symmetry-Aware Transformer-based Mirror Detection -- SATNet
-This repo is the official implementation of ["Symmetry-Aware Transformer-based Mirror Detection"]()
+This repo is the official implementation of ["Symmetry-Aware Transformer-based Mirror Detection"](https://arxiv.org/abs/2207.06332)
 
 ## Installation
 
@@ -20,7 +20,7 @@ mkdir data
 ```
 
 ## Data preparation
-We train and evaluate our SATNet on Mirror Segmentation Dataset (MSD), Progressive Mirror Dataset (PMD), RGB-D Mirror Dataset (RGBD-Mirror). You can download the pack file [mirror.tar]() of these datasets and unpack it to `SATNet/data`
+We train and evaluate our SATNet on Mirror Segmentation Dataset (MSD), Progressive Mirror Dataset (PMD), RGB-D Mirror Dataset (RGBD-Mirror). You can download zip files for corresponding datasets [here](https://drive.google.com/drive/folders/1Fj0fIwn-mXI3xTlENiHXjYNLMUBRTZwg?usp=sharing) and unpack them to `SATNet/data`
 
 
 ## Get Started
