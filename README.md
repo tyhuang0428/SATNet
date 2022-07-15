@@ -43,14 +43,21 @@ We provide our pre-trained checkpoints and corresponding training logs [here](ht
   If you want to use tensorboard, you need to `pip install tensorboard` and uncomment the Line 6 `dict(type='TensorboardLoggerHook')` of `SATNet/configs/_base_/default_runtime.py`.
 
 
-### Single-scale testing
+### Testing
 
 ```
-./tools/dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE} ${GPU_NUM} --eval mIoU
+python ./tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} --eval mIoU
 
-# For example, test our SATNet on MSD dataset with a single GPU
-./tools/dist_test.sh ./configs/satnet/msd_satnet.py ckpts/msd/iter_20000.pth 1 --eval mIoU
+# For example, test our SATNet on MSD dataset
+python ./tools/test.py ./configs/satnet/msd_satnet.py ./ckpts/msd/iter_20000.pth --eval mIoU
+```
+
+### Visualization
+```
+python ./tools/test.py ${CONFIG_FILE} ${CHECKPOINT_FILE} --show --show-dir ${SAVE_PATH}
+
+# For example, visulaize the results of our SATNet on MSD dataset
+python ./tools/test.py ./configs/satnet/msd_satnet.py ./ckpts/msd/iter_20000.pth --show --show-dir ./results/msd
 ```
 
 Please see [getting_started.md](docs/getting_started.md) for the more basic usage of training and testing.
-
