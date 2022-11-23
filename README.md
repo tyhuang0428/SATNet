@@ -1,5 +1,5 @@
-# Symmetry-Aware Transformer-based Mirror Detection -- SATNet
-This repo is the official implementation of ["Symmetry-Aware Transformer-based Mirror Detection"](https://arxiv.org/abs/2207.06332)
+# Symmetry-Aware Transformer-based Mirror Detection
+This repo is the official implementation of AAAI 2023 paper ["Symmetry-Aware Transformer-based Mirror Detection"](https://arxiv.org/abs/2207.06332)
 
 ## Installation
 
